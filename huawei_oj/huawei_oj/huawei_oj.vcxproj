@@ -60,6 +60,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.cpp" />
+    <ClCompile Include="2043.cpp" />
+    <ClCompile Include="2048.cpp" />
     <ClCompile Include="2004.cpp" />
     <ClCompile Include="2051.cpp" />
     <ClCompile Include="2290.cpp" />
