@@ -61,6 +61,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.cpp" />
+    <ClCompile Include="2.cpp" />
+    <ClCompile Include="2037.cpp" />
     <ClCompile Include="2043.cpp" />
     <ClCompile Include="2048.cpp" />
     <ClCompile Include="2004.cpp" />

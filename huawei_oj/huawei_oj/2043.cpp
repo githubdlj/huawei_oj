@@ -4,8 +4,7 @@
 // 
 // bool isPrimer(int num)  
 // {   
-//    // int bound = max(num / 2, 2);   //   bound不能小于2
-//     int bound = (num / 2) > 2 ? (num / 2) : 2;
+//     int bound = num / 2;
 //     for (int i = 2; i <= bound; ++i)
 //     {
 //         if (num % i == 0)

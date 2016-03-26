@@ -1,34 +1,51 @@
-//  int atoi(const char* str)
-//  char* itoa(int value, char* result, int radix)
-//  sprintf(char* result, const char* format, [argument]), printf(const char* format, [argument]);
-
-#include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-using namespace std;
-
-int findNumOfOne(int num)
-{
-    char str[1024];
-    itoa(num, str, 2);
-
-    int count = 0;
-    for (int i = 0; str[i] != 0; ++i)
-    {
-        if (str[i] == '1')
-        {
-            ++count;
-        }
-    }
-
-    return count;
-}
-
-int main()
-{
-    int num;
-    cin >> num;
-    cout << findNumOfOne(num) << endl;; 
-    system("pause");
-    return 0;
-}
+// #include <iostream>
+// #include <stdio.h>
+// using namespace std;
+// 
+// //  返回GC比例最大的下标
+// int findGC(char* str)
+// {
+//     int maxSumOfGC = 0;
+//     int index = 0;  
+// 
+//     int len = strlen(str);
+//     int bound = len - 5;
+//     for (int i = 0; i < bound; ++i)
+//     {
+//         int sumOfGC = 0;
+//         for (int j = i; j < 5 + i; ++j)
+//         {
+//             if (str[j] == 'G' || str[j] == 'C')
+//             {
+//                 sumOfGC++;
+//             }
+//         }
+//         //cout << sumOfGC << endl;
+//         if (maxSumOfGC < sumOfGC)
+//         {
+//             maxSumOfGC = sumOfGC;
+//             index = i;
+//         }
+//     }
+// 
+//     return index;
+// }
+// 
+// int main()
+// {
+//     char str[1204];
+//     cin >> str;
+// 
+//     int subLen;
+//     cin >> subLen;
+// 
+//     int index = findGC(str);
+//     for (int i = index; i < index + 5; ++i)
+//     {
+//         cout << str[i];
+//     }
+//     cout << endl;
+// 
+//     system("pause");
+//     return 0;
+// }
